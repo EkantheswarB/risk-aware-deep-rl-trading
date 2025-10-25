@@ -1,0 +1,9 @@
+gymnasium==0.29.1
+stable-baselines3==2.3.0
+torch==2.2.2
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+tqdm==4.66.4
+yfinance==0.2.40
+scikit-learn==1.5.1
