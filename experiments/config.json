@@ -1,0 +1,12 @@
+{
+  "tickers": ["BTC-USD", "ETH-USD", "SPY"],
+  "start_date": "2020-01-01",
+  "end_date": "2024-12-31",
+  "window_size": 30,
+  "transaction_cost": 0.0005,
+  "risk_penalty": 0.1,
+  "train_until": "2023-12-31",
+  "test_from": "2024-01-01",
+  "algo": "PPO",
+  "timesteps": 100000
+}
