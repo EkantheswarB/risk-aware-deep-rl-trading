@@ -91,7 +91,7 @@ class TradingEnv(gym.Env):
     def step(self, action):
         action_to_pos = {0: -1, 1: 0, 2: 1}
         self.prev_position = self.position
-        self.position = action_to_pos[action]
+        self.position = action_to_pos[int(action) if not np.isscalar(action) else action]
 
         # today's BTC return
         r_t = self.btc_ret[self.current_step]
