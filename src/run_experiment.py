@@ -84,11 +84,19 @@ def run_experiment():
     # 10. Print to console (so you can paste into your paper)
     print("\n=== RL STRATEGY ===")
     for k,v in rl_summary.items():
-        print(f"{k:20s}: {v:.4f}")
+        if isinstance(v, (int, float)):
+            print(f"{k:20s}: {v:.4f}")
+        else:
+            print(f"{k:20s}: {v}")
+
 
     print("\n=== BUY & HOLD BTC ===")
     for k,v in bh_summary.items():
-        print(f"{k:20s}: {v:.4f}")
+        if isinstance(v, (int, float)):
+            print(f"{k:20s}: {v:.4f}")
+        else:
+            print(f"{k:20s}: {v}")
+
 
     print("\nResults saved to experiments/results_test.json")
     print("Plots saved under experiments/plots/")
