@@ -1,3 +1,8 @@
+import sys
+import os
+PROJECT_ROOT = "/content/risk-aware-deep-rl-trading"
+if PROJECT_ROOT not in sys.path:
+    sys.path.append(PROJECT_ROOT)
 import json
 from pathlib import Path
 import numpy as np
