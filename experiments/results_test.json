@@ -1,0 +1,16 @@
+{
+  "rl_summary": {
+    "label": "RL",
+    "final_nav": 1.9164534104630897,
+    "sharpe": 1.2338923482607376,
+    "max_drawdown": -0.30016209443320124,
+    "annual_volatility": 0.445198708459247
+  },
+  "buyhold_summary": {
+    "label": "BuyHoldBTC",
+    "final_nav": 2.2129377505542123,
+    "sharpe": 1.4564315175831006,
+    "max_drawdown": -0.2618203147591953,
+    "annual_volatility": 0.4454248881584887
+  }
+}
